@@ -6,7 +6,7 @@ import Dashboard from "./DashBoard";
 function App() {
   return (
     <Container>
-      <Navi />
+      <Navi/>
       <Dashboard/>
    </Container>
   );
