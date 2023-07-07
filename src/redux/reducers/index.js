@@ -1,8 +1,10 @@
-import { combineReducers } from "redux"
-import changeCategoryReducers from "./changeCategoryReducers"
+import { combineReducers } from 'redux';
+import changeCategoryReducers from './changeCategoryReducers';
+import categoryListReducer from './categoryListReducer';
 
 const rootReducer = combineReducers({
-    changeCategoryReducers
-})
+  changeCategoryReducers,
+  categoryListReducer,
+});
 
-export default rootReducer
+export default rootReducer;
