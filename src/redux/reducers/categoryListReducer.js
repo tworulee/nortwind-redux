@@ -1,8 +1,8 @@
-import * as actionTypes from '../actions/actionsTypes';
+import * as actionTypes from '../actions/actionTypes';
 import initialState from './initialState';
 
 export default function changeCategoryReducer(
-  state = initialState.currentCategory.categories,
+  state = initialState.categories,
   action
 ) {
   switch (action.type) {
