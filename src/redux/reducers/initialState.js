@@ -1,7 +1,8 @@
 // export.js
 const data = {
-  currentCategory: { currentCategory: {} },
+  currentCategory: {},
   categories: [],
+  products: [],
 };
 
 export default data;
