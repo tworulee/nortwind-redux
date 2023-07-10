@@ -3,6 +3,7 @@ const data = {
   currentCategory: {},
   categories: [],
   products: [],
+  cart: [],
 };
 
 export default data;
