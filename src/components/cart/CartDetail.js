@@ -8,6 +8,7 @@ class CartDetail extends Component {
     return (
       <div>
         <h1>CartDetail</h1>
+        <h1>CartDetail</h1>
       </div>
     );
   }
