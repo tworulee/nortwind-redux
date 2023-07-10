@@ -4,6 +4,7 @@ const data = {
   categories: [],
   products: [],
   cart: [],
+  savedProduct: {},
 };
 
 export default data;
